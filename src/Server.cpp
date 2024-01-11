@@ -66,7 +66,7 @@ void Server::sendPostResponse(class Client *client)
 
 		client->getResp()->body = "Failed to upload the file.";
         client->getResp()->post_done = true;
-        client->getResp()->response_complete;
+        // client->getResp()->response_complete;
         // exit(1);
 
 		// throw(returnError());
